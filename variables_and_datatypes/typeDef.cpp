@@ -5,6 +5,8 @@
 
 typedef std::string text_t;
 typedef int number_t;
+
+using num_t = int;
 int main(){
 
     /* 
