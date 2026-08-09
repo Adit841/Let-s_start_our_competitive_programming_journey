@@ -14,9 +14,24 @@ int main(){
         cout << (*it) << endl;
     }
 
-    for(int value : v){
-        cout << value << " " ;
-    }
+    // for(int &value : v){
+    //     value++;
+    //     // cout << value << " " ;
+    // }
+    
+    // for(int value : v){
+    //     cout << value << " " ;
+    // }
+
     cout << endl;
+
+
+    auto a = 1.6;
+    cout << a << endl;
+
+    vector <pair<int,int>> v_p = {{1,2}, {3,4}};
+    for(auto &value : v_p){
+        cout << value.first << " " << value.second << endl;
+    }
     return 0;
 }
