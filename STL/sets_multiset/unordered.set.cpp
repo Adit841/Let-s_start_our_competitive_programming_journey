@@ -1,7 +1,7 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-void print(set<string> &s){
+void print(unordered_set<string> &s){
     for(string value : s){
         cout << value << endl;
 
@@ -10,13 +10,13 @@ void print(set<string> &s){
 }
 
 int main(){
-    set<string> s;
+    unordered_set<string> s;
 
-    s.insert("abc"); // log(n) insertion time complexity 
+    s.insert("abc"); // O(1) insertion time complexity 
     s.insert("fhfg");
     s.insert("asd");
-     s.insert("asd");// only store unique element 
-    auto it = s.find("abc");//log(n)
+    s.insert("asd");// only store unique element 
+    auto it = s.find("abc");//O(1)
     s.erase("abc");
     if(it != s.end()){
         cout << (*it);
