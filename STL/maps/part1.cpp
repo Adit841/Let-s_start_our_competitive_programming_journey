@@ -23,8 +23,8 @@ int main(){
     // }
     
     auto it = m.find(9);//O(log(n))
-    m.erase(3);
-    m.clear();
+    // m.erase(3);
+    // m.clear();
     // if(it == m.end()){
     //     cout << "NO value";
     // }else{
