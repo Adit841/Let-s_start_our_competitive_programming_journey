@@ -24,3 +24,12 @@ int main(){
     printMax(arr, 7, k);
     return 0;
 }
+
+/*
+    Time Complexity: O(n × k)
+    For each of the (n - k + 1) windows, we scan k elements to find the maximum.
+    Space Complexity: O(1)
+    No extra space is used.
+
+
+*/
