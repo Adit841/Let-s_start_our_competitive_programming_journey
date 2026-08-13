@@ -49,11 +49,4 @@ int main(){
     remove()	    Removes all occurrences of a particular element.	O(N)
     unique()        Removes all duplicate consecutive elements          O(N)
     sort()	        Sorts the linked list.	O(N*logN
-
-
-
-
-
-
-
 */
