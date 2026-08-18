@@ -4,5 +4,13 @@
 using namespace std;
 
 int main(){
+    string s;
+    cin >> s;
+    // cout << s.length()<<endl;
+    int count = 0;
+    for(int i = 0; i < s.length(); i++){
+        count++;
+    }
+    cout << count ;
     return 0;
 }
