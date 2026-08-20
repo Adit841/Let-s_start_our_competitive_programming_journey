@@ -13,7 +13,7 @@ int main(){
         n = n / 2;
     }
 
-    for(int i = 0; i < d.size(); i++){
+    for(int i = d.size() - 1; i >= 0; i--){
         cout << d[i] << " ";
     }
     return 0;
