@@ -26,5 +26,5 @@ int main(){
     return 0;
 }
 
-// Time complexities = map(insert,fetch) = best,average,worst = O(logn)
-// Time complexities = unorded_map(insert,fetch) = best,average = O(1) worst = O(n);
+// Time complexities = map(storing,fetch) = best,average,worst = O(logn)
+// Time complexities = unorded_map(storing,fetch) = best,average = O(1) worst = O(n);
