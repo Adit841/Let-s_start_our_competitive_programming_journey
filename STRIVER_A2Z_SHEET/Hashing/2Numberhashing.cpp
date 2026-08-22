@@ -11,11 +11,11 @@
             hash[i]++;
         }
 
-        for(int i = 0; i < n; i++){
-            if(hash[i] > 0){
-            cout << i << " = " << hash[i] << endl;
-        }
-        }
+        for (int i = 0; i < 13; i++) {
+             if (hash[i] > 0) {
+                 cout << i << " = " << hash[i] << endl;
+                }
+        }   
 
         return 0;
     }
